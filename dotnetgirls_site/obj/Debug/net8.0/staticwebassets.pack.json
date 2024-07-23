@@ -9,22 +9,6 @@
       "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
     },
     {
-      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/scopedcss/bundle/dotnetgirls_site.styles.css",
-      "PackagePath": "staticwebassets/dotnetgirls_site.styles.css"
-    },
-    {
-      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/css/app.css",
-      "PackagePath": "staticwebassets/css/app.css"
-    },
-    {
-      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/css/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
-    },
-    {
-      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/css/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
-    },
-    {
       "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
@@ -35,10 +19,6 @@
     {
       "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
-    },
-    {
-      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/sample-data/weather.json",
-      "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.dotnetgirls_site.props",
