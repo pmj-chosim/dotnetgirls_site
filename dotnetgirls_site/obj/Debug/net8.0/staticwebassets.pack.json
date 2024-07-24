@@ -5,16 +5,16 @@
       "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
     },
     {
-      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/yjjzy6ommr.gz",
+      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/79j3kfq3zr.gz",
       "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
     },
     {
-      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/scopedcss/bundle/dotnetgirls_site.styles.css",
+      "PackagePath": "staticwebassets/dotnetgirls_site.styles.css"
     },
     {
-      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/icon-192.png",
-      "PackagePath": "staticwebassets/icon-192.png"
+      "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
     },
     {
       "Id": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/index.html",

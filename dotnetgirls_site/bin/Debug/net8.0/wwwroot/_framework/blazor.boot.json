@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "dotnetgirls_site",
   "resources": {
-    "hash": "sha256-vVELwPYsJyB8fcy5u08HvMwQnmFP+LbuvSj/DimDMGU=",
+    "hash": "sha256-h3GUZG/oAiQPSHmMDvS4Z9XZibWCu/O5CoFtgs4+s3M=",
     "jsModuleNative": {
-      "dotnet.native.8.0.7.md4vhzanu1.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
+      "dotnet.native.8.0.7.7l1yobdath.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.7.pku09nnux5.js": "sha256-soZyw6XWXOLKhA26AOyzSpCP5cAsw1wvhdPHSYNTMfQ="
+      "dotnet.runtime.8.0.7.ufz7eoeesz.js": "sha256-soZyw6XWXOLKhA26AOyzSpCP5cAsw1wvhdPHSYNTMfQ="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-ApuqKsuYqEC0ZTUIUV5mIV1IIRYYCwmOiB912jgs8CQ="
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "dotnetgirls_site.wasm": "sha256-qKNwYUP8uYBCo9n7rNGfMXXT/eTAU1VtuKCbAJcE+z4="
+      "dotnetgirls_site.wasm": "sha256-OjCxgd6d/xMS7xVQRCfoTJwblVRXtDi1D00DUA/oco8="
     },
     "pdb": {
-      "dotnetgirls_site.pdb": "sha256-1bE5/C+IMqX8JGYl7ekIcFNqFD+Zem/8+axsfBiz1eg="
+      "dotnetgirls_site.pdb": "sha256-3djzedXz+7lvlSlt11o7fWhy/vyazX6YtfVdA33Uirc="
     }
   },
   "cacheBootResources": true,

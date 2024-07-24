@@ -1760,7 +1760,7 @@
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1768,11 +1768,11 @@
       "projectUniqueName": "/workspaces/dotnetgirls_site/dotnetgirls_site/dotnetgirls_site.csproj",
       "projectName": "dotnetgirls_site",
       "projectPath": "/workspaces/dotnetgirls_site/dotnetgirls_site/dotnetgirls_site.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

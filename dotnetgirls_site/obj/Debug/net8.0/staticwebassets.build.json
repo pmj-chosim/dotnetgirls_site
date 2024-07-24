@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8ug3/OBHyvkeyiPWJqiuy3JcEHzG3tsZwtSzp3sL+Vg=",
+  "Hash": "6M09HEMw0RMOdppX9174v7PD5h3YkTO5uOSR2YBi7pc=",
   "Source": "dotnetgirls_site",
   "BasePath": "/",
   "Mode": "Root",
@@ -52,7 +52,7 @@
       "AssetTraitValue": "boot",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.aspnetcore.components.webassembly/8.0.7/build/net8.0/blazor.webassembly.js"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.aspnetcore.components.webassembly/8.0.7/build/net8.0/blazor.webassembly.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js",
@@ -71,7 +71,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.js"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.js.map"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.js.map"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.7.md4vhzanu1.js",
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.7.7l1yobdath.js",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
       "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.7.md4vhzanu1.js",
+      "RelativePath": "_framework/dotnet.native.8.0.7.7l1yobdath.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.native.js"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.native.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.native.wasm"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.native.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.7.pku09nnux5.js",
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.7.ufz7eoeesz.js",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
       "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.7.pku09nnux5.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.7.ufz7eoeesz.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.runtime.js"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.runtime.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.runtime.js.map"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/dotnet.runtime.js.map"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnetgirls_site.pdb",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/icudt_CJK.dat"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/icudt_CJK.dat"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/icudt_EFIGS.dat"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/icudt_EFIGS.dat"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/home/codespace/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/icudt_no_CJK.dat"
+      "OriginalItemSpec": "/root/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.7/runtimes/browser-wasm/native/icudt_no_CJK.dat"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.wasm",
@@ -3950,25 +3950,6 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.IO.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/0caeoa5kpi.gz",
-      "SourceId": "dotnetgirls_site",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat"
-    },
-    {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/0flza7egxo.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
@@ -4596,25 +4577,6 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/5dlriuu6ya.gz",
-      "SourceId": "dotnetgirls_site",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map"
-    },
-    {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/5enw9ctzbt.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
@@ -4767,23 +4729,42 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.IO.Compression.ZipFile.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/6ken2154jd.gz",
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/6ii4yqd8xq.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
       "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "RelativePath": "_framework/dotnet.js.map.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm"
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map"
+    },
+    {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/79j3kfq3zr.gz",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/7cecj3d6pr.gz",
@@ -4803,6 +4784,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.IO.Compression.Brotli.wasm"
+    },
+    {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/7l1yobdath.gz",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.7.7l1yobdath.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.7.7l1yobdath.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.7.7l1yobdath.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/7u8gubmioy.gz",
@@ -5299,6 +5299,25 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.Text.Json.wasm"
     },
     {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/bx64e8rvbo.gz",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map"
+    },
+    {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/czxrnq51oy.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
@@ -5356,23 +5375,23 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/WindowsBase.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/dl6sgzhge7.gz",
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/d4qvt13c2a.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
       "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js"
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/e9lr3eq43p.gz",
@@ -5715,6 +5734,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.Data.DataSetExtensions.wasm"
+    },
+    {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/hgnuedr8rs.gz",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/hk05w35ehy.gz",
@@ -6116,6 +6154,25 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.Transactions.wasm"
     },
     {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/lnlpqf5glo.gz",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat"
+    },
+    {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/lp7qnbtw7o.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
@@ -6209,25 +6266,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.Security.AccessControl.wasm"
-    },
-    {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/md4vhzanu1.gz",
-      "SourceId": "dotnetgirls_site",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.7.md4vhzanu1.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.7.md4vhzanu1.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.7.md4vhzanu1.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/mrbftznn2k.gz",
@@ -6382,25 +6420,6 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.Reflection.Emit.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/opkv1lwsyh.gz",
-      "SourceId": "dotnetgirls_site",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat"
-    },
-    {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/p2i8jvaceh.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
@@ -6496,25 +6515,6 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.Net.NetworkInformation.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/pku09nnux5.gz",
-      "SourceId": "dotnetgirls_site",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.7.pku09nnux5.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.7.pku09nnux5.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.7.pku09nnux5.js"
-    },
-    {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/q2s55nr86q.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
@@ -6570,25 +6570,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/Microsoft.Win32.Registry.wasm"
-    },
-    {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/q9ypgq0d8w.gz",
-      "SourceId": "dotnetgirls_site",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/qbr0wntb9k.gz",
@@ -6798,6 +6779,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnetgirls_site.wasm"
+    },
+    {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/sceo7oxyu7.gz",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/sfle207gfj.gz",
@@ -7026,6 +7026,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.wasm"
+    },
+    {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/ufz7eoeesz.gz",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.7.ufz7eoeesz.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.7.ufz7eoeesz.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.7.ufz7eoeesz.js"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/upivdbg5pm.gz",
@@ -7522,25 +7541,6 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/x7r33stysl.gz",
-      "SourceId": "dotnetgirls_site",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat"
-    },
-    {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/xigbxt8rnf.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
@@ -7617,25 +7617,6 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/Microsoft.Extensions.Configuration.FileExtensions.wasm"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/yjjzy6ommr.gz",
-      "SourceId": "dotnetgirls_site",
-      "SourceType": "Computed",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js"
-    },
-    {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/yltjjyfufn.gz",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Computed",
@@ -7653,6 +7634,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/System.ComponentModel.TypeConverter.wasm"
+    },
+    {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/yvb1gtbh6v.gz",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/compressed/yx6o5ffieb.gz",
@@ -7769,31 +7769,50 @@
       "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/favicon.png",
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/scopedcss/bundle/dotnetgirls_site.styles.css",
       "SourceId": "dotnetgirls_site",
-      "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "/",
-      "RelativePath": "favicon.png",
+      "RelativePath": "dotnetgirls_site.styles.css",
       "AssetKind": "All",
-      "AssetMode": "All",
+      "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/scopedcss/bundle/dotnetgirls_site.styles.css"
     },
     {
-      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/icon-192.png",
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/scopedcss/projectbundle/dotnetgirls_site.bundle.scp.css",
+      "SourceId": "dotnetgirls_site",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "BasePath": "/",
+      "RelativePath": "dotnetgirls_site.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/workspaces/dotnetgirls_site/dotnetgirls_site/obj/Debug/net8.0/scopedcss/projectbundle/dotnetgirls_site.bundle.scp.css"
+    },
+    {
+      "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/css/app.css",
       "SourceId": "dotnetgirls_site",
       "SourceType": "Discovered",
       "ContentRoot": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "icon-192.png",
+      "RelativePath": "css/app.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7804,7 +7823,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/icon-192.png"
+      "OriginalItemSpec": "wwwroot/css/app.css"
     },
     {
       "Identity": "/workspaces/dotnetgirls_site/dotnetgirls_site/wwwroot/index.html",
