@@ -6,8 +6,8 @@
         "command": "dotnet",
         "type": "process",
         "args": [
-          "build",
-          "${workspaceFolder}/dotnetgirls_site/dotnetgirls_site.csproj"
+            "build",
+            "${workspaceFolder}/dotnetgirls_site/dotnetgirls_site.csproj"
         ],
         "problemMatcher": "$msCompile"
       }
