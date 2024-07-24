@@ -7,7 +7,7 @@
         "type": "process",
         "args": [
           "build",
-          "${workspaceFolder}/dotnetgirls_site/dotnetgirls_site/dotnetgirls_site.csproj"
+          "${workspaceFolder}/dotnetgirls_site/dotnetgirls_site.csproj"
         ],
         "problemMatcher": "$msCompile"
       }

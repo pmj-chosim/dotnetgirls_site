@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnetgirls_site")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a91bd74f5e761d69b762c89ec8dfdccbbfe486e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5fe0692654f3b6ed8777c77fdb5d6e6413affbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnetgirls_site")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnetgirls_site")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
