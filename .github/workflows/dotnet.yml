@@ -19,8 +19,16 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
-    - name: Build and Watch
-      run: dotnet watch build --project ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      run: dotnet restore --project ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+    - name: Build 
+      run: dotnet build --project ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    - name: Publish
+      run: dotnet publish --configuration Release --output build_output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+        
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site/build_output/wwwroot
