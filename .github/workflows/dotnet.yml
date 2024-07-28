@@ -6,8 +6,6 @@ name: .NET
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   build:
@@ -22,7 +20,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
+    - name: Build and Watch
+      run: dotnet watch build --project ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
     - name: Test
       run: dotnet test --no-build --verbosity normal
