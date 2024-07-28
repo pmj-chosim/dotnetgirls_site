@@ -23,7 +23,8 @@ jobs:
       run: dotnet build ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
       
     - name: Test
-      run: dotnet test --no-build --verbosity normal ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      run: echo ${GITHUB_WORSPACE}
+           dotnet test --no-build --verbosity normal ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
       
     - name: Publish
       run: dotnet publish --configuration Release --output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site/build_output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
