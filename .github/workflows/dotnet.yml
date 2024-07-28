@@ -28,7 +28,7 @@ jobs:
     - name: Publish
       run: dotnet publish --configuration Release --output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site/build_output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
     
-    - name: Deploy to GitHub Pages
+    - name: Deploy 
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
