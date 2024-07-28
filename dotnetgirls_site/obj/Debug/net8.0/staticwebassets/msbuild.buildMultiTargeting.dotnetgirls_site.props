@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/dotnetgirls_site.props" />
-</Project>
