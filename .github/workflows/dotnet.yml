@@ -1,32 +1,33 @@
-# This workflow will build a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
-name: .NET
+name: .NET and Deploy to GitHub Pages
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
+    
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-    - name: Restore dependencies
-      run: dotnet restore --project ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
-    - name: Build 
-      run: dotnet build --project ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
-    - name: Publish
-      run: dotnet publish --configuration Release --output build_output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
         
+    - name: Restore dependencies
+      run: dotnet restore ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      
+    - name: Build
+      run: dotnet build ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      
+    - name: Test
+      run: dotnet test --no-build --verbosity normal ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      
+    - name: Publish
+      run: dotnet publish --configuration Release --output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site/build_output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+    
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
