@@ -17,16 +17,16 @@ jobs:
         dotnet-version: 8.0.x
         
     - name: Restore dependencies
-      run: dotnet restore ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      run: dotnet restore ${GITHUB_WORKSPACE}/dotnetgirls_site
       
     - name: Build
-      run: dotnet build ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      run: dotnet build ${GITHUB_WORKSPACE}/dotnetgirls_site
       
     - name: Test
-      run: dotnet test --no-build --verbosity normal ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      run: dotnet test --no-build --verbosity normal ${GITHUB_WORKSPACE}/dotnetgirls_site
       
     - name: Publish
-      run: dotnet publish --configuration Release --output ${GITHUB_WORKSPACE}/dotnetgirls_site/build_output ${GITHUB_WORKSPACE}/dotnetgirls_site/dotnetgirls_site.csproj
+      run: dotnet publish --configuration Release --output ${GITHUB_WORKSPACE}/dotnetgirls_site/build_output ${GITHUB_WORKSPACE}/dotnetgirls_site
     
     - name: Deploy 
       uses: peaceiris/actions-gh-pages@v3
