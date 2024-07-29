@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Soljik';
+    src: url('/fonts/Soljik-Dambaek.ttf') format('truetype');
+}
+
+
+#contact {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; /* 수직 방향으로 배치 */
+    align-items: center; /* 중앙 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+#contact h1 {
+    font-family: 'Soljik';
+    font-style: italic;
+    font-style: bold;
+    margin-top: 20px; 
+    font-size: 80px;/* 원하는 여백 크기로 설정 */
+}
+
+.sns {
+    display: flex; /* 플렉스 박스 활성화 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    padding-bottom: 10%;
+    margin-top: 20px; /* h1과 sns 간격 추가 */
+}
+
+.github-content, .x-content {
+    display: flex; /* 플렉스 박스 활성화 */
+    align-items: center; /* 수직 중앙 정렬 */
+    margin: 0 15px; /* 요소 사이 간격 추가 */
+}
+
+.github-logo,.x-logo {
+    width: 40px; /* 로고의 너비 */
+    height: auto; /* 높이 자동 조정 */
+    margin: 0 10px; /* 아이템들 사이에 간격 추가 */
+    cursor: pointer; /* 커서를 포인터로 변경 */
+}
