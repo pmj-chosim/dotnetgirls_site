@@ -5,7 +5,8 @@
 
 
 #contact {
-    padding-top: 20px;
+    padding-top: 130px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column; /* 수직 방향으로 배치 */
     align-items: center; /* 중앙 정렬 */
@@ -17,6 +18,10 @@
     font-style: bold;
     margin-top: 20px; 
     font-size: 80px;/* 원하는 여백 크기로 설정 */
+}
+
+#contact h1 a{
+    color: rgb(109, 0, 142);
 }
 
 .sns {
