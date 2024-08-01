@@ -1,39 +1,22 @@
-<!-- Inline CSS for styling text -->
-<style>
-    .large-text {
-        font-size: 40pt;
-    }
-    .medium-text {
-        font-size: 20pt;
-    }
-    .small-text {
-        font-size: 10pt;
-    }
-    #subscribe {
-        text-align: center; /* Centers text inside the section */
-    }
+@page "/subscribe"
 
-    #notice {
-        text-align: center; /* Centers text inside the section */
-    }
-</style>
+<link href="css/Subscribe.css" rel="stylesheet" />
 
 <section id="subscribe">
-    <h1 class="large-text">Subscribe Newsletter</h1>
-    <p class="medium-text">We send you information about</p>
-    <p class="medium-text">latest our community events and news.</p>
-</section>
+    <h1>Subscribe Newsletter</h1>
+    <p><br>We send you information about</p>
+    <p>latest our community events and news.</p>
 
-<div id="mc_embed_shell">
+    <div id="mc_embed_shell">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         #mc_embed_shell {
             text-align: center; /* 중앙 정렬 텍스트 */
+            margin-top: 30px; /* Section과 div 사이의 하단 여백 설정 */
         }
         #mc_embed_signup {
-            background: #fff;
             clear: left;
-            font: 14px Helvetica, Arial, sans-serif;
+            font: 16px Helvetica, Arial, sans-serif;
             width: 600px;
             margin: 0 auto; /* 중앙 정렬 블록 요소 */
         }
@@ -79,10 +62,11 @@
         }(jQuery));
         var $mcj = jQuery.noConflict(true);
     </script>
-</div>
+    </div>
 
-<section id="notice">
-    <p class="small-text">Your email address will only be used to send newsletters.</p>
+    <section id="notice">
+    <p>Your email address will only be used to send newsletters.</p>
+    </section>
 </section>
 
 @code{
