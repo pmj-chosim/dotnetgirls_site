@@ -1,0 +1,55 @@
+.background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('/images/homeimage1.png') no-repeat center center;
+    background-size: cover;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background: rgba(72, 7, 94, 0.5);
+    opacity: 0;
+    transition: opacity 0.2s; /* Only opacity transition */
+    text-align: center; 
+}
+
+.background:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h1, .overlay p {
+    transform: translateY(50px);
+    transition: transform 2s;
+}
+
+.background:hover .overlay h1,
+.background:hover .overlay p {
+    transform: translateY(0);
+}
+
+.overlay h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.overlay p {
+    font-size: 30px;
+    margin: 0 auto;
+    color: white;
+}

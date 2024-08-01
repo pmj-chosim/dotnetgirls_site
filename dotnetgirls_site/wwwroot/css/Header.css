@@ -1,0 +1,38 @@
+#header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    color: purple;
+    z-index: 1000;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 로고와 메뉴 컨테이너 사이에 공간을 배분 */
+}
+
+
+.navbar__menu {
+    flex-grow: 1; /* 메뉴 컨테이너가 가능한 모든 공간을 차지하게 함 */
+    justify-content: center; /* 메뉴 항목을 가운데로 정렬 */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar__menu li {
+    padding: 30px; /* 메뉴 항목 간 간격 조정 */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar__menu a {
+    text-decoration: none; /* 링크에 밑줄이 생기지 않도록 설정 */
+    color: inherit; /* 링크 색상을 부모 요소의 색상과 일치시킴 */
+}
