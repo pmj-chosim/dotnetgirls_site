@@ -1,9 +1,18 @@
+@font-face {
+    font-family: 'SubFont';
+    src: url('/fonts/MontserratExtrabold-qZ7Rx.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .text-center {
+    font-family: 'subFont', sans-serif;
     text-align: center;
     margin-top: 30px;
 }
 
 #about_h1 {
+    font-family: 'subFont', sans-serif;
     margin-top: 40px;
     font-size: 80px;
     margin-bottom: 20px;
@@ -12,6 +21,7 @@
 }
 
 #about_h1::after {
+    font-family: 'subFont', sans-serif;
     content: '';
     position: absolute;
     width: 0;
@@ -31,16 +41,19 @@
 }
 
 .text-purple {
+    font-family: 'subFont', sans-serif;
     color: purple;
     font-weight: 700;
     font-size: 40px;
 }
 
 p {
+    font-family: 'subFont', sans-serif;
     font-size: 40px;
     line-height: 1.6;
 }
 
 #about {
+    font-family: 'subFont', sans-serif;
     padding: 20px;
 }
