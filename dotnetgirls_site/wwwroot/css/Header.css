@@ -1,4 +1,12 @@
+@font-face {
+    font-family: 'SubFont';
+    src: url('/fonts/MontserratExtrabold-qZ7Rx.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #header {
+    font-family: 'subFont', sans-serif;
     position: sticky;
     top: 0;
     backdrop-filter: blur(5px);
