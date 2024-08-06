@@ -57,18 +57,16 @@ img {
 }
 
 .overlay h1 {
-    padding-top: 20vh;
+    margin-top: 40px;
     font-family: 'Cafe24Decoshadow';
-    font-size: 7vw; /* 화면 너비의 7%로 글자 크기 설정 */
+    font-size: 100px;
     margin-bottom: 20px;
     color: white;
 }
 
 .overlay p {
     font-family: 'Cafe24Lovingu';
-    font-size: 4vw; /* 화면 너비의 4%로 글자 크기 설정 */
-    margin-top: 20px; 
-    margin-bottom: 5px; 
-    line-height: 1; 
+    font-size: 50px;
+    margin: 0 auto;
     color: white;
 }
