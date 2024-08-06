@@ -14,27 +14,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between; /* 로고와 메뉴 컨테이너 사이에 공간을 배분 */
-    padding: 0 20px; /* 좌우 여백을 추가하여 내용이 가장자리에 붙지 않도록 설정 */
-    box-sizing: border-box; /* 패딩이 포함되도록 설정 */
 }
 
-
-.navbar__logo{
-    flex: 1; /* 로고가 flex 컨테이너의 1 부분을 차지하도록 설정 */
-    padding-left: 70px;
-}
 
 .navbar__menu {
-    flex: 3; /* 메뉴가 flex 컨테이너의 2 부분을 차지하도록 설정 */
-    justify-content: right; /* 메뉴 항목을 가운데로 정렬 */
+    flex-grow: 1; /* 메뉴 컨테이너가 가능한 모든 공간을 차지하게 함 */
+    justify-content: center; /* 메뉴 항목을 가운데로 정렬 */
     list-style-type: none;
-    padding-right: 200px;
+    padding: 0;
     margin: 0;
     display: flex;
 }
 
 .navbar__menu li {
-    padding-left: 70px; /* 메뉴 항목 간 간격 조정 */
+    padding: 30px; /* 메뉴 항목 간 간격 조정 */
     font-size: 30px;
     font-weight: bold;
 }
@@ -43,4 +36,3 @@
     text-decoration: none; /* 링크에 밑줄이 생기지 않도록 설정 */
     color: inherit; /* 링크 색상을 부모 요소의 색상과 일치시킴 */
 }
-
