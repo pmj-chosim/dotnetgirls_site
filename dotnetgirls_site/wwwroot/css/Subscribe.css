@@ -1,21 +1,24 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Mont.otf') format('opentype');
+}
+
 body, html {
     height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 /* #subscribe 내의 모든 자식 요소 스타일 수정 */
 #subscribe > * {
+    font-family: 'Montserrat', sans-serif;
     position: static; /* 절대 위치 제거 */
     text-align: center;
-    margin: 10px 0; /* 각 요소 사이에 여백 추가 */
 }
 
 /* #subscribe 섹션 스타일 수정 */
 #subscribe {
     width: 100%;
     max-width: 100%;
-    padding: 80px; /* 패딩 추가 */
+    padding: 30px; /* 패딩 추가 */
     background-color: #4b419b; /* 배경 색상 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 */
     color: white;
@@ -24,21 +27,23 @@ body, html {
     align-items: center; /* 자식 요소를 가로로 중앙 정렬 */
     justify-content: flex-start; /* 자식 요소를 상단에 정렬 */
     text-align: center; /* 텍스트 중앙 정렬 */
-    min-height: 100px; /* 최소 높이 설정 */
+    min-height: 100px; /*최소 높이 설정*/ 
     font-weight: bold; /* 글자를 볼드체로 설정 */
 }
 
 #subscribe h1 {
     font-size: 65px; /* 단위 추가 */
+    padding: 40px;
 }
 
 #subscribe p {
     font-size: 30px; /* 단위 추가 */
-    margin: 0px 0; /* 각 요소 사이에 여백 추가 */
+    padding: 40px;
 }
 
 /* #notice 요소 스타일 */
 #notice p {
+    font-family: 'Montserrat', sans-serif;
     color: #9997aa;
     font-weight: normal; /* 글자를 볼드체로 설정 */
     font-size: 15px; /* 단위 추가 */
