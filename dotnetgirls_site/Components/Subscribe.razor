@@ -5,32 +5,67 @@
 <section id="subscribe">
     <h1>Subscribe Newsletter</h1>
     <p><br>We send you information about</p>
-    <p>latest our community events and news.</p>
+    <p style="margin-bottom: 20px;">latest our community events and news.</p>
 
     <div id="mc_embed_shell">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         #mc_embed_shell {
             text-align: center; /* 중앙 정렬 텍스트 */
-            margin-top: 30px; /* Section과 div 사이의 하단 여백 설정 */
+            margin-top: 60px; /* Section과 div 사이의 하단 여백 설정 */
+            width: 70%; /* 너비를 70%로 설정 */
+            max-width: 600px; /* 최대 너비를 600px로 설정 */
+            margin: 0 auto; /* 중앙 정렬 블록 요소 */
         }
         #mc_embed_signup {
             clear: left;
             font: 16px Helvetica, Arial, sans-serif;
-            width: 600px;
+            width: 100%; /* 부모 요소의 너비를 따름 */
             margin: 0 auto; /* 중앙 정렬 블록 요소 */
         }
         .optionalParent {
             text-align: center; /* 중앙 정렬 텍스트 */
         }
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. */
+        .mc-field-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .mc-field-group input[type=email] {
+            width: 100%; /* 이메일 입력 칸 너비를 100%로 설정 */
+            max-width: 100%; /* 최대 너비를 100%로 설정 */
+        }
+        .clear.foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .clear.foot p {
+            margin: 0; /* 여백 제거 */
+            flex-grow: 1;
+            text-align: right; /* 오른쪽 정렬 */
+        }
+        .clear.foot img {
+            width: 220px;
+            height: 40px;
+            margin-left: 10px;
+        }
+        #mc-embedded-subscribe {
+            margin-right: auto; /* 왼쪽 정렬 */
+        }
     </style>
     <div id="mc_embed_signup">
         <form action="https://naver.us22.list-manage.com/subscribe/post?u=24d27715d3f7aeb389f5cf491&amp;id=0356499a46&amp;f_id=0034d2e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
             <div id="mc_embed_signup_scroll">
-                <h2>Subscribe</h2>
-                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+                <h2>Subscribe by input Email Address here!</h2>
+                @* <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> *@
+                <div class="mc-field-group">
+                    @* <label for="mce-EMAIL">Input Email Address</label> *@
+                    @* below: asterisk exist version *@
+                    @* <label for="mce-EMAIL">Input Email Address <span class="asterisk">*</span></label> *@
+                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+                </div>
                 <div id="mce-responses" class="clear foot">
                     <div class="response" id="mce-error-response" style="display: none;"></div>
                     <div class="response" id="mce-success-response" style="display: none;"></div>
@@ -42,7 +77,11 @@
                 <div class="optionalParent">
                     <div class="clear foot">
                         <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                        <p style="margin: 0px auto;"><a href="http://eepurl.com/iT9LoY" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
+                        @* below: mailchimp logo part *@
+                        @* <p><a href="http://eepurl.com/iT9LoY" title="Mailchimp - email marketing made easy and fun">
+                            <span style="display: inline-block; background-color: transparent; border-radius: 4px;">
+                                <img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp">
+                            </span></a></p> *@
                     </div>
                 </div>
             </div>
@@ -62,7 +101,9 @@
         }(jQuery));
         var $mcj = jQuery.noConflict(true);
     </script>
-    </div>
+</div>
+
+
 
     <section id="notice">
     <p>Your email address will only be used to send newsletters.</p>
