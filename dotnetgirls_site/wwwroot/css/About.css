@@ -4,6 +4,7 @@
 }
 
 #about_h1 {
+    font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
     font-size: 80px;
     margin-bottom: 20px;
@@ -37,11 +38,13 @@
 }
 
 p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     line-height: 1.6;
     padding-bottom:120px;
 }
 
 #about {
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
 }

@@ -1,8 +1,13 @@
 #footer{
+    font-family: 'Montserrat', sans-serif;
     padding-top:15px;
     padding-bottom:15px;
     text-align: center;
     background-color: #bfbfbf;
     color: white;
     font-size: 3px;
+}
+
+p {
+    font-size: 25px;
 }
