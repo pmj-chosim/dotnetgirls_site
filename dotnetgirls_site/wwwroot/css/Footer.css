@@ -1,13 +1,16 @@
 #footer{
-    font-family: 'Montserrat', sans-serif;
-    padding-top:15px;
-    padding-bottom:15px;
+    font-family: 'Montserrat';
+    padding-top:30px;
+    padding-bottom:0px;
     text-align: center;
     background-color: #bfbfbf;
     color: white;
-    font-size: 3px;
+    display: flex;
+    flex-direction: column; /* 수직 방향으로 배치 */
+    align-items: center; /* 중앙 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
 }

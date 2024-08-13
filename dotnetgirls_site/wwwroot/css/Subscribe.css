@@ -9,7 +9,7 @@ body, html {
 
 /* #subscribe 내의 모든 자식 요소 스타일 수정 */
 #subscribe > * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     position: static; /* 절대 위치 제거 */
     text-align: center;
 }
@@ -43,7 +43,7 @@ body, html {
 
 /* #notice 요소 스타일 */
 #notice p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: #9997aa;
     font-weight: normal; /* 글자를 볼드체로 설정 */
     font-size: 15px; /* 단위 추가 */
