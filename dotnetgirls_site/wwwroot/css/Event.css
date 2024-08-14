@@ -1,5 +1,5 @@
 #event{
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
     display: flex;
     flex-direction: column; /* 수직 방향으로 배치 */
@@ -12,14 +12,22 @@
     font-size: 50px;
     color:white;
     font-family: 'Montserrat';
+    margin: 50px;
+}
+
+#event p{
+    padding-bottom: 50px;
+    font-size: 30px;
+    color:white;
+    font-family: 'Montserrat';
 }
 
 #event button{
-    margin-top: 30px;
-    background-color: rgb(210, 194, 246);
+    padding: 0px;
+    background-color: rgb(255, 245, 141);
     color:purple;
     border-radius: 5px;
-    width: 200px;
+    width: 250px;
     height:50px;
     font-style:bold;
     font-size: 30px;

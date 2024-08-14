@@ -3,22 +3,13 @@
     src: url('/fonts/Mont.otf') format('opentype');
 }
 
-body, html {
-    height: 100%;
-}
-
-/* #subscribe 내의 모든 자식 요소 스타일 수정 */
-#subscribe > * {
-    font-family: 'Montserrat';
-    position: static; /* 절대 위치 제거 */
-    text-align: center;
-}
-
 /* #subscribe 섹션 스타일 수정 */
 #subscribe {
+    padding-top: 200px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat';
     width: 100%;
     max-width: 100%;
-    padding: 30px; /* 패딩 추가 */
     background-color: #4b419b; /* 배경 색상 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 */
     color: white;
@@ -32,8 +23,8 @@ body, html {
 }
 
 #subscribe h1 {
+    
     font-size: 65px; /* 단위 추가 */
-    padding: 40px;
 }
 
 #subscribe p {
