@@ -19,8 +19,6 @@
 
 
 .navbar__menu {
-    /*flex-grow: 1;*/ /* 메뉴 컨테이너가 가능한 모든 공간을 차지하게 함 */
-    /*justify-content: center;*/ /* 메뉴 항목을 가운데로 정렬 */
     list-style-type: none;
     padding: 0;
     margin: 0;
