@@ -19,16 +19,17 @@
 
 
 .navbar__menu {
-    flex-grow: 1; /* 메뉴 컨테이너가 가능한 모든 공간을 차지하게 함 */
-    justify-content: center; /* 메뉴 항목을 가운데로 정렬 */
+    /*flex-grow: 1;*/ /* 메뉴 컨테이너가 가능한 모든 공간을 차지하게 함 */
+    /*justify-content: center;*/ /* 메뉴 항목을 가운데로 정렬 */
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: flex-end;
 }
 
 .navbar__menu li {
-    padding: 30px; /* 메뉴 항목 간 간격 조정 */
+    padding: 2vw; /* 메뉴 항목 간 간격 조정 */
     font-size: 30px;
     font-weight: bold;
 }
