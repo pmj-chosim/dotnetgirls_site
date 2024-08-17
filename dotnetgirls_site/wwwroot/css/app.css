@@ -5,7 +5,12 @@ h1:focus {
 
 html {
     scroll-behavior: smooth;
+    margin: none !important;
+    padding:none !important;
+    height:auto !important;
 }
+
+
 
 /* 모든 요소의 기본 마진과 패딩을 제거 */
 * {
@@ -18,4 +23,5 @@ html {
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }

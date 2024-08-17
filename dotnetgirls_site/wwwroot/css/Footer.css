@@ -1,17 +1,18 @@
 #footer{
     font-family: 'Montserrat';
-    padding-top:30px;
-    padding-bottom:0px;
-    margin-bottom: 0px;
     text-align: center;
     background-color: #bfbfbf;
     color: white;
-    display: flex;
     flex-direction: column; /* 수직 방향으로 배치 */
     align-items: center; /* 중앙 정렬 */
     text-align: center; /* 텍스트 가운데 정렬 */
+    padding-top: 10px; /* 위아래 패딩을 줄여서 높이 조절 */
+    height: 60px; /* 높이를 자동으로 설정 */min-height: 10px; /* 최소 높이를 지정하여 너무 작아지지 않도록 방지 */
+    padding: none;
+    margin:none;
 }
 
 p {
     font-size: 20px;
+    margin: 0!important;
 }

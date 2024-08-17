@@ -5,7 +5,7 @@
 
 
 #contact {
-    padding-top: 130px;
+    padding-top: 200px;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column; /* 수직 방향으로 배치 */
@@ -16,8 +16,8 @@
     font-family: 'Soljik';
     font-style: italic;
     font-style: bold;
-    margin-top: 20px; 
-    font-size: 80px;/* 원하는 여백 크기로 설정 */
+    margin-top: 40px; 
+    font-size: 80px;
 }
 
 #contact h1 a{
