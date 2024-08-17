@@ -6,12 +6,14 @@
     flex-direction: column; /* 수직 방향으로 배치 */
     align-items: center; /* 중앙 정렬 */
     text-align: center; /* 텍스트 가운데 정렬 */
-    padding-top: 10px; /* 위아래 패딩을 줄여서 높이 조절 */
-    padding: none;
+    padding: 15px; 
     margin:none;
 }
 
-p {
-    font-size: 20px;
+#footer a {
+    text-decoration: underline; 
+    color: inherit;
+    font-size: 15px;
+    font: white;
     margin: 0!important;
 }

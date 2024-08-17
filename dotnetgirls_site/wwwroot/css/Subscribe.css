@@ -18,7 +18,8 @@ body, html {
 #subscribe {
     width: 100%;
     max-width: 100%;
-    padding: 30px; /* 패딩 추가 */
+    padding-top: 50px;
+    padding-bottom: 20px; /* 패딩 추가 */
     background-color: #4b419b; /* 배경 색상 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 */
     color: white;
