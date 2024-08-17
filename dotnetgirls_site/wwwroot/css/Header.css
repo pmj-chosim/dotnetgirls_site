@@ -19,6 +19,7 @@
 
 
 .navbar__menu {
+    width: 100%;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
@@ -26,7 +27,7 @@
 
 .navbar__menu li {
     padding: 2vw; /* 메뉴 항목 간 간격 조정 */
-    font-size: 30px;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
