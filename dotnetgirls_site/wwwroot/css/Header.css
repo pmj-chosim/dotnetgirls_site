@@ -13,6 +13,7 @@
 .navbar {
     width: 100%;
     display: flex;
+    padding-left:2vw;
     align-items: center;
     justify-content: space-between; /* 로고와 메뉴 컨테이너 사이에 공간을 배분 */
 }
